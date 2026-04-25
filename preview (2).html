@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virtual Assistance Masterclass</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    background: rgba(15,23,42,0.95);
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+header h2 {
+    color: #facc15;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #cbd5f5;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HERO */
+.hero {
+    padding-top: 120px;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    color: #facc15;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #94a3b8;
+}
+
+/* PRICE */
+.price {
+    margin: 25px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #64748b;
+}
+
+.new-price {
+    display: block;
+    font-size: 2.3rem;
+    color: #facc15;
+    font-weight: 700;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 35px;
+    background: #facc15;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #eab308;
+}
+
+/* CARDS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card, .testimonial {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* HIGHLIGHT TEXT */
+.highlight {
+    margin-top: 25px;
+    color: #facc15;
+    font-weight: 600;
+}
+
+/* FAQ */
+.faq {
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq h4 {
+    margin-top: 20px;
+    color: #facc15;
+}
+
+/* FOOTER */
+footer {
+    background: #020617;
+    padding: 40px;
+    text-align: center;
+    color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>VA Masterclass</h2>
+    <nav>
+        <a href="#course">Course</a>
+        <a href="#learn">Curriculum</a>
+        <a href="#payment">Enroll</a>
+        <a href="#testimonials">Results</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Virtual Assistance Masterclass</h1>
+    <p>Launch your career as a professional Virtual Assistant — even with zero experience.</p>
+
+    <div class="price">
+        <span class="old-price">₱12,879</span>
+        <span class="new-price">₱3,499</span>
+    </div>
+
+    <a href="#payment" class="btn">Enroll Now</a>
+</section>
+
+<section id="course">
+    <h2>Program Overview</h2>
+    <p>✔ 1 Month Intensive Training</p>
+    <p>✔ 2 Hours Per Day (Live Sessions)</p>
+    <p>✔ Real-World VA Skills & Tools</p>
+
+    <p class="highlight">
+        Complete the program and become eligible for real client opportunities.
+    </p>
+</section>
+
+<section id="learn">
+    <h2>What You’ll Learn</h2>
+
+    <div class="grid">
+        <div class="card">Full Virtual Assistant Training</div>
+        <div class="card">Essential VA Tools & Systems</div>
+        <div class="card">Client Communication Skills</div>
+        <div class="card">Freelancing Platforms</div>
+        <div class="card">Automation & Productivity Tools</div>
+        <div class="card">Social Media Management</div>
+        <div class="card">Email & Calendar Management</div>
+        <div class="card">Data Entry & Admin Tasks</div>
+    </div>
+
+    <p class="highlight">
+        A complete beginner-to-advanced roadmap to becoming a successful VA.
+    </p>
+</section>
+
+<section id="payment">
+    <h2>Enrollment Details</h2>
+    <p class="new-price">₱3,499</p>
+
+    <p><strong>Bank:</strong> GoTyme Bank</p>
+    <p><strong>Account Number:</strong> 011657354374</p>
+
+    <br>
+
+    <p>1. Complete your payment</p>
+    <p>2. Take a screenshot</p>
+    <p>3. Send to: practicetrade4@gmail.com</p>
+    <p>4. Receive your course access</p>
+</section>
+
+<section id="testimonials">
+    <h2>Student Results</h2>
+
+    <div class="grid">
+        <div class="testimonial">Maria S. – Now earning ₱120,000/month</div>
+        <div class="testimonial">John C. – ₱150,000/month after training</div>
+        <div class="testimonial">Anne R. – ₱120,000/month</div>
+        <div class="testimonial">Mark D. – ₱180,000/month</div>
+    </div>
+</section>
+
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq">
+        <h4>Is this beginner-friendly?</h4>
+        <p>Yes. We guide you step-by-step from the basics.</p>
+
+        <h4>Do I need experience?</h4>
+        <p>No prior experience is required.</p>
+
+        <h4>Is this live training?</h4>
+        <p>Yes, all sessions are conducted live.</p>
+
+        <h4>Will I get clients after?</h4>
+        <p>We provide guidance and opportunities to help you get started.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Limited Slots Available</h2>
+    <p>Secure your spot and start your VA career today.</p>
+    <a href="#payment" class="btn">Join Now</a>
+</section>
+
+<footer>
+    <p>Contact: practicetrade4@gmail.com</p>
+    <p>© 2026 VA Masterclass</p>
+</footer>
+
+</body>
+</html>
